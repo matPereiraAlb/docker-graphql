@@ -28,5 +28,5 @@ jobs:
         docker build -t peralb98/docker-graphql:0.0.2 .
     - name: Push Docker image
       run: |
-        docker push peralb98/docker-graphql:0.0.2 .
+        docker push peralb98/docker-graphql:0.0.2
     
